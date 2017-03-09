@@ -107,4 +107,4 @@ class Util {
     }
 }
 
-module.exports = Util;
+exports.Util = Util;
