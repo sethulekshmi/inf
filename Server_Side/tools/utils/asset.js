@@ -59,4 +59,4 @@ class Asset {
     }
 }
 
-module.exports = Asset;
+exports.Asset = Asset;
