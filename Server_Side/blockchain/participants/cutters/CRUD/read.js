@@ -22,4 +22,4 @@ let read = function(req, res)
         res.send({'result':participants.cutters});
     }
 };
-module.exports = read;
+exports.read = read;
