@@ -23,4 +23,4 @@ let read = function(req, res)
     }
 
 };
-exports.read = read;
+module.exports = read;
