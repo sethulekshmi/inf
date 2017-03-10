@@ -21,4 +21,4 @@ let read = function(req, res)
         res.send({'result':participants});
     }
 };
-exports.read = read;
+module.exports = read;
