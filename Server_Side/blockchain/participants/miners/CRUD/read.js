@@ -28,4 +28,4 @@ var read = function(req, res)
 		res.send({"result":participants.participants_info.miners})
 	}
 }
-exports.read = read;
+module.exports = read;
